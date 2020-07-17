@@ -1,0 +1,160 @@
+<html>
+    <head>
+
+    </head>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        table {
+            border-collapse: collapse;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            min-width: 375px;
+        }
+        th {
+            padding: 8px;
+        }
+        td {
+            padding: 8px;
+            font-size: 0.9em;
+        }
+        .number {
+            font-style: bold;
+            font-weight: bold;
+        }
+        @media (min-width: 800px) {
+            .number {
+                min-width: 160px;
+            }
+        }
+        @media only screen and (-webkit-min-device-pixel-ratio : 2) {
+            table {
+                max-width: none;
+            }
+            td {
+                font-size: 1.4em;
+            }
+        }
+        @media (max-width: 600px) {
+            td {
+                font-size: 0.8em;
+            }
+        }
+        .yellow {
+            background-color: #fff2cc;
+        }
+        .salmon {
+            background-color: #fbe4d5;
+        }
+        .pink {
+            background-color: #fbc4cc;
+        }
+        .purple {
+            background-color: #e3b8fb;
+        }
+        .blue {
+            background-color: #deeaf6;
+        }
+        .green {
+            background-color: #e2efd9;
+        }
+    </style>
+    <body>
+        <table>
+            <tr>
+                <th>CATEGORY</th>
+                <th>ORGANIZATION</th>
+                <th>CONTACT INFO</th>
+                <th>SUPPORT</th>
+            </tr>
+            <tr class="yellow">
+                <td rowspan="3">Mental Health</td>
+                <td>NW Human Services, Mental Health Crisis Line</td>
+                <td class='number'>503-588-5833<br>or 1-800-560-5535
+                </td>
+                <td class='description'>24/7 crisis response hotline & intervention in Marion and Polk County</td>
+            </tr>
+            <tr class="yellow">
+                <td>Multnomah County Crisis Line</td>
+                <td class='number'>503-988-4888</td>
+                <td class='description'>24/7 crisis response hotline & intervention in Multnomah County</td>
+            </tr>
+            <tr class="yellow">
+                <td>Suicide Prevention Hotline</td>
+                <td class='number'>1-800-273-8255</td>
+                <td class='description'>24/7 hotline to experienced professionals</td>
+            </tr>
+            <tr class="salmon">
+                <td rowspan="3">LGTBQ+</td>
+                <td>Trans Crisis Hotline</td>
+                <td class='number'>1-877-565-8860
+                </td>
+                <td class='description'>The very first crisis hotline for the trans community</td>
+            </tr>
+            <tr class="salmon">
+                <td>The Trevor Project</td>
+                <td class='number'>1-866-488-7386</td>
+                <td class='description'>24/7 crisis hotline & suicide hotline for LGBTQ+ under 25yo</td>
+            </tr>
+            <tr class="salmon">
+                <td>PDX Q CENTER</td>
+                <td class='number'>503-234-7837</td>
+                <td class='description'>A local directory for help and resources for all LGTBQ+</td>
+            </tr>
+            <tr class="pink">
+                <td rowspan="1">Youth Resources</td>
+                <td>Youthline</td>
+                <td class='number'>877-968-8491</td>
+                <td class='description'>24/7 teen-to-teen crisis help</td>
+            </tr>
+            <tr class="purple">
+                <td rowspan="3">Domestic Violence & Sexual Assault</td>
+                <td>Call to Safety</td>
+                <td class='number'>1-888-235-5333</td>
+                <td class='description'>Formerly Portland Women’s Crisis Line for domestic & sexual violence</td>
+            </tr>
+            <tr class="purple">
+                <td>RAINN</td>
+                <td class='number'>800-656-4673</td>
+                <td class='description'>24/7 connect with a trained staff member from a sexual assault service provider in your area</td>
+            </tr>
+            <tr class="purple">
+                <td>Sexual Assault Resource Center</td>
+                <td class='number'>503-640-5311</td>
+                <td class='description'>24/7 crisis & support hotline</td>
+            </tr>
+            <tr class="blue">
+                <td rowspan="2">Houselessness</td>
+                <td>Portland Street Medicine</td>
+                <td class='number'>503-501-1231</td>
+                <td class='description'>Mobile response team that assists with non-life threatening medical issues</td>
+            </tr>
+            <tr class="blue">
+                <td>Transition Projects</td>
+                <td class='number'>503-280-4700</td>
+                <td class='description'>24/7 emergency shelters @ 435 NW Glisan & 5120 SE Milwaukie</td>
+            </tr>
+            <tr class="green">
+                <td rowspan="3">Misc</td>
+                <td>Poison Control</td>
+                <td class='number'>503-494-8968</td>
+                <td class='description'></td>
+            </tr>
+            <tr class="green">
+                <td>Portland Fire & Rescue</td>
+                <td class='number'>503-823-3700</td>
+                <td class='description'></td>
+            </tr>
+            <tr class="green">
+                <td>Portland National Lawyers Guild</td>
+                <td class='number'>503-902-5340</td>
+                <td class='description'>Jail support hotline</td>
+            </tr>
+        </table>
+    </body>
+</html>
